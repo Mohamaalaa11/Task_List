@@ -1,0 +1,39 @@
+.list-group li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #67676775;
+    padding: 10px
+}
+.filtered-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #67676775;
+    padding: 10px;
+}
+.list-group li:last-child {
+    border-bottom: none; 
+}
+
+.delete-item {
+    margin-left: 10px; 
+    cursor: pointer;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.list h2{
+    margin:20px 0 ;
+}
+.clr{
+    margin: 30px 0;
+}
+
+#tasksfilter{
+    margin-bottom: 30px;
+}
